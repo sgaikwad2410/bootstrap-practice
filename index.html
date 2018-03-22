@@ -98,7 +98,7 @@
             </div>
         </div>
          <div class="row  row-content align-items-center">
-          <div class="col-md-6 offset-md-3">          
+          <div class="col-md-7 offset-md-3">          
            <div class="card">
             <h3 class ="card-header bg-info text-white">Reserve a Table</h3>
             <div class="card-block">
@@ -127,14 +127,24 @@
 					</dd>				
                     <dt class="col-3">Date and Time</dt>
                     <dd class="col-9">
-                   	<div class="input-group mb-2 mr-sm-2 mb-sm-0">
-    				<div class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></div>
-    				<input  type="date"  id="date" placeholder="Date">   					
- 					<!-- <div class="input-group mb-2 mr-sm-2 mb-sm-0"> -->
- 					<div class="input-group-addon"><i class="fa fa-times"></i></div>
-    				<input  type="time"  id="time" placeholder="Time">
- 					</div>      
-                    </dd>
+					 <div class="row">
+							<div class="col">
+							<div class="input-group mb-2">
+							<div class="input-group-prepend">
+							<div class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></div>
+							</div>
+							<input type="text" class="form-control form-control-sm" id="date" placeholder="Date">
+							</div>
+							</div>
+							<div class="col">
+							<div class="input-group mb-2">
+							<div class="input-group-prepend">
+							<div class="input-group-addon"><i class="fa fa-times" aria-hidden="true"></i></div>
+							</div>
+							<input type="text" class="form-control form-control-sm" id="time" placeholder="Time"></div>
+							</div>
+					</div>	
+					</dd>
                     <dt class="col-3"><dt>
                    	<dt class="col-9"><button class="btn btn-success" value="Submit"><strong>Reserve</strong></button></dt>
             </dl> 
